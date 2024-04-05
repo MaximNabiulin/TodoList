@@ -4,7 +4,7 @@
         "es2021": true
     },
     "extends": [
-        "airbnb",
+        // "airbnb",
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:react/recommended",
@@ -21,17 +21,14 @@
         "react"
     ],
     "rules": {
-        // "react-refresh/only-export-components": [
-        //     "warn",
-        //     { "allowConstantExport": true }
-        //   ],
-             "react/function-component-definition": [
+        "react/function-component-definition": [
             2,
             {
               "namedComponents": "arrow-function",
               "unnamedComponents": "arrow-function"
             }
-          ]
+        ],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
     },
     "settings": {
       "react": {

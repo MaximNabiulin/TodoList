@@ -1,0 +1,121 @@
+.todo-form {
+  width: 90%;
+  /* max-width: 1140px; */
+  margin: 50px auto 10px;
+  padding-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+}
+
+.todo-form__title {
+  margin: 0 auto 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.todo-form__input-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-form__input-label {
+  width: 100%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-form__input {
+  margin: 0 0 0 8px;
+  width: 88%;
+  height: 40px;
+  padding-left: 15px;
+  border: 1.5px solid rgba(170, 170, 170, 1);
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  background-color: rgba(170, 170, 170, 0.2);
+}
+
+.todo-form__input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.todo-form__input::placeholder {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #A0A0A0;
+}
+
+.todo-form__buttons {
+  position: absolute;
+  right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.todo-form__button {
+  width: 55px;
+  height: 32px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.todo-form__button:last-child {
+  margin-left: 4px;
+}
+
+.todo-form__submit-button {
+  background-color: #66bb6a;
+}
+
+.todo-form__submit-button:hover {
+  background-color: #4a8c4e;
+}
+
+.todo-form__submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.todo-form__cancel-button {
+  width: 55px;
+  background-color: #4676D7;
+}
+
+.todo-form__cancel-button:hover {
+  background-color: #1d49aa;
+}
+
+.todo-form__cancel-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.todo-form__hidden-button {
+  display: none;
+}
+

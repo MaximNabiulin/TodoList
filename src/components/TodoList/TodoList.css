@@ -1,0 +1,12 @@
+.todo-list {
+  width: 90%;
+  margin: 22px auto 0;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+  background-color: rgba(170, 170, 170, 0.1);
+  border-radius: 5px;
+}
