@@ -9,7 +9,7 @@
 }
 
 .todo-item__checkbox {
-  margin-right: 10px;
+  margin: 0 10px 5px 0;
 }
 
 .todo-item__text {
